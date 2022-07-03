@@ -5,6 +5,7 @@ import ContentSection from "./components/ContentSection";
 import CrossRevealSection from "./components/CrossRevealSection";
 import FaceOne from "./assets/images/faceOne.png";
 import LandscapeOne from "./assets/images/landscapeOne.png";
+import ProductsSection from "./components/ProductsSection";
 
 const StyledHeroSection = styled.section`
   position: relative;
@@ -30,11 +31,10 @@ const StyledTitle = styled.h1`
   padding-top: 4rem;
   opacity: 0;
   clip-path: polygon(50% 100%, 0% 100%, 100% 100%);
-  transform: translateY(20px)
+  transform: translateY(20px);
 `;
 
 function App() {
-
   return (
     <>
       <StyledHeroSection>
@@ -42,6 +42,7 @@ function App() {
         <StyledTitle>Back to smooth and firm skin</StyledTitle>
         <ParallaxHeroSection />
       </StyledHeroSection>
+      <ProductsSection />
       <ContentSection
         title={"Take Care"}
         text={

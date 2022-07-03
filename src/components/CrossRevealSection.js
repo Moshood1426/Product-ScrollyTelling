@@ -119,7 +119,7 @@ const CrossRevealSection = ({
       <div className="crossRevealImage">
         <img src={face} alt="" />
         <div className="person_content" ref={personRef}>
-          <h3 classname="person_name">{name}</h3>
+          <h3 className="person_name">{name}</h3>
           <p className="person_job">{job}</p>
         </div>
       </div>
